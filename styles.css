@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9e4db;
+    margin: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(252, 249, 249, 0.1);
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+.child{
+    background-color: #def0d0;
+    padding: 2em;
+    border-radius:1em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+/* .buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+} */
+
+h1 {
+    /* text-align: center; */
+    height: .8em;
+    width: 2em;
+}
+
+.feedback-options {
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+    margin-bottom: 20px;
+}
+
+.feedback-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #6b8c81;
+    color: white;
+    transition: background-color 0.3s;
+   
+}
+
+.feedback-btn:hover {
+    background-color: #3e6f77;
+}
+#sendFeedbackBtn:hover{
+    background-color: #00695c;
+}
+.send-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    display: block;
+    margin: 0 auto;
+    transition: background-color 0.3s;
+}
+
+.send-btn:disabled {
+    background-color: #6c757d;
+}
+
+.send-btn:hover:not(:disabled) {
+    background-color: #218838;
+}
+
+.review-display {
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+
+/* Centered message box */
+.thank-you-message {
+    display: none;
+    background-color: #e0f7fa;
+    color: #00695c;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.thank-you-message h2 {
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+.thank-you-message p {
+    margin: 5px 0;
+}
